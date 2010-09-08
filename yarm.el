@@ -252,7 +252,7 @@
   "Find app directory"
   (let ((current-dir default-directory))
     (loop with count = 0
-          until (file-exists-p (concat current-dir "config/config.yml"))
+          until (file-exists-p (concat current-dir "config/environment.rb"))
           ;; Return nil if outside the value of
           if (= count yarm-root-path-search-limit)
           do (return nil)
