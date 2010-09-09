@@ -588,7 +588,7 @@
                         "app/controllers/*_controller.rb --with-filename")
                 nil (current-buffer))
                (goto-char (point-min))
-               (while (re-search-forward (concat yarm-root-path "app/controllers/\\([^\\/]+\\)_controller\.rb:.*def +\\([0-9a-zA-Z_-\.\?!=]+\\).*$") nil t)
+               (while (re-search-forward (concat yarm-root-path "app/controllers/\\([^\\/]+\\)_controller\.rb:.*def +\\([0-9a-zA-Z_\.\?!=-]+\\).*$") nil t)
                  (message (match-string 1))
                  (replace-match (concat (match-string 1) " / " (match-string 2))))
                )
