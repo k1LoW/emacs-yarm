@@ -521,7 +521,7 @@
 (defun yarm-open-css-dir ()
   "Open css directory."
   (interactive)
-  (yarm-open-dir "public/css/" t))
+  (yarm-open-dir "public/stylesheets/" t))
 
 (defvar yarm-initial-input nil)
 (defun yarm-get-initial-input ()
