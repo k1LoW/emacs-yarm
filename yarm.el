@@ -1,5 +1,4 @@
-;;;yarm.el ---  Yet Another Ruby on Rails Minor Mode
-;; -*- Mode: Emacs-Lisp -*-
+;;; yarm.el ---  Yet Another Ruby on Rails Minor Mode
 
 ;; Copyright (C) 2010 by 101000code/101000LAB
 
@@ -33,6 +32,8 @@
 ;; (yarm-set-default-key-map)
 
 ;;; Commentary:
+
+;; Yet Another Ruby on Rails Minor Mode.
 
 ;;; Commands:
 ;;
